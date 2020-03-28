@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <AutoCompleteTextView
+                android:id="@+id/actv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Enter File Name(don't type solution or answer tag)"
+                android:completionThreshold="1"
+                android:hint="@string/enter_file_name" />
+
+            <AutoCompleteTextView
+                android:id="@+id/actvExam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_exam_name"
+                android:completionHint="Enter Exam Name"
+                android:completionThreshold="1"
+                android:layout_marginTop="30dp"
+                />
+
+            <AutoCompleteTextView
+                android:id="@+id/actvPorS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/paper_or_solution" />
+
+            <AutoCompleteTextView
+                android:id="@+id/q_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Question_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/o_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Option_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/o2_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Option2_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/o3_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Option3_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/o4_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Option4_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/a_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Answer_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/s_startwith"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Solution_Start_With" />
+
+            <AutoCompleteTextView
+                android:id="@+id/marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Marks_For_Correct_Answer" />
+
+            <AutoCompleteTextView
+                android:id="@+id/negative_marks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Marks_For_Wrong_Answer" />
+
+            <AutoCompleteTextView
+                android:id="@+id/total_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Total_Question" />
+
+            <AutoCompleteTextView
+                android:id="@+id/total_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/Total_time" />
+
+            <AutoCompleteTextView
+                android:id="@+id/answer_included"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/answer_included" />
+
+            <AutoCompleteTextView
+                android:id="@+id/solution_included"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:completionHint="Paper or Solution or Answer"
+                android:completionThreshold="1"
+                android:hint="@string/solution_included" />
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="50dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.052"
+                tools:layout_editor_absoluteX="-16dp">
+
+                <Button
+                    android:id="@+id/buttonChoose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:text="@string/choose" />
+
+                <Button
+                    android:id="@+id/buttonUpload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:text="@string/Upload" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

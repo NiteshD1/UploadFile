@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">UploadFile</string>
+    <string name="choose">Choose</string>
+    <string name="Upload">Upload</string>
+    <string name="FileName">File Name</string>
+    <string name="enter_file_name">Enter File Name(don\'t type solution or answer tag)</string>
+    <string name="enter_exam_name">Enter Exam Name</string>
+    <string name="paper_or_solution">Paper or Solution or Answer</string>
+    <string name="Question_Start_With">Question Start With(upload with paper only)</string>
+    <string name="Answer_Start_With">Answer Start With(upload with paper only)</string>
+    <string name="Solution_Start_With">Solution Start With(upload with paper only)</string>
+    <string name="Option_Start_With">Option Start With(upload with paper only)</string>
+    <string name="Option2_Start_With">Option2 Start With(upload with paper only)</string>
+    <string name="Option3_Start_With">Option3 Start With(upload with paper only)</string>
+    <string name="Option4_Start_With">Option4 Start With(upload with paper only)</string>
+    <string name="Marks_For_Correct_Answer">Marks For Correct Answer(upload with paper only)</string>
+    <string name="Marks_For_Wrong_Answer"> Negative Marks(show value in +,upload with paper only)</string>
+    <string name="Total_Question">Total Question(upload with paper only)</string>
+    <string name="Total_time">Total Time(upload with paper only)</string>
+    <string name="answer_included">Answer Included(Yes or No)</string>
+    <string name="solution_included">Solution Included(Yes or No)</string>
+
+</resources>
